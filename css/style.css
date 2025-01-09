@@ -118,3 +118,80 @@ body {
   right: 0;
   bottom: -200px;
 }
+
+.services {
+  padding-top: 100px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #21062a;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  width: 80px;
+  height: 3px;
+  background-color: #21062a;
+  position: absolute;
+  top: 22px;
+  margin-left: 18px;
+}
+
+.services-inner {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.services-content {
+  width: 505px;
+  margin-right: 96px;
+}
+
+.services-content-box + .services-content-box {
+  margin-top: 69px;
+}
+
+.services-content-textbox {
+  margin-bottom: 50px;
+}
+
+.services-content-title {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5a0d67;
+  margin-bottom: 12px;
+}
+
+.services-content-text + .services-content-text {
+  margin-top: 12px;
+}
+
+.button-dekor {
+  color: #fff;
+  position: relative;
+}
+
+.button-dekor::after {
+  content: 'ЖМИ';
+  position: absolute;
+  color: #c4c4c4;
+  right: -105px;
+  /* margin-left: 139px; */
+}
+
+.button-dekor::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #c4c4c4;
+  right: -75px;
+  top: 50%;
+}
