@@ -291,3 +291,7 @@ body {
 .benefits-item-text {
   color: #c4c4c4;
 }
+
+.carousel {
+  margin-bottom: 100px;
+}
