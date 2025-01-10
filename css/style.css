@@ -412,3 +412,15 @@ body {
   margin-top: 78px;
   cursor: pointer;
 }
+
+.footer {
+  background-color: #21062a;
+}
+
+.footer-inner {
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
