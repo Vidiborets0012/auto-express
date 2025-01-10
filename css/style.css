@@ -103,11 +103,15 @@ body {
   color: #5a0d67;
   background-color: #fff;
 }
-.header-social-list {
-  padding: 70px 0 20px 65px;
+
+.social {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.header-social-list {
+  padding: 70px 0 20px 65px;
 }
 
 .header-images {
