@@ -295,3 +295,51 @@ body {
 .carousel {
   margin-bottom: 100px;
 }
+
+.carousel-inner {
+  margin: 0 -7px;
+}
+
+.carousel-item-box {
+  border: 1px solid #c4c4c4;
+  padding: 6px 6px 16px 6px;
+  margin: 0 7px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.carousel-item-box:hover {
+  color: #fff;
+  border-color: #5a0d67;
+  background-color: #5a0d67;
+}
+
+.carousel-item-img {
+  max-width: 100%;
+  margin-bottom: 23px;
+}
+
+.carousel-item-title {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.carousel .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.carousel .slick-dots button {
+  font-size: 0;
+  border: none;
+  margin: 0 10px;
+  width: 50px;
+  height: 1px;
+  background-color: #c4c4c4;
+}
+
+.carousel .slick-active button {
+  height: 3px;
+  background-color: #5a0d67;
+}
