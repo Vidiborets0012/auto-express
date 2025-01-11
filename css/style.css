@@ -572,6 +572,10 @@ body {
     font-size: 28px;
     line-height: 36px;
   }
+
+  .carousel-item-img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -601,7 +605,8 @@ body {
 
   .header,
   .services-inner,
-  .benefits {
+  .benefits,
+  .carousel {
     margin-bottom: 60px;
   }
 
@@ -611,6 +616,10 @@ body {
 
   .services-item::before {
     left: 11px;
+  }
+
+  .carousel .slick-dots button {
+    width: 10px;
   }
 }
 
