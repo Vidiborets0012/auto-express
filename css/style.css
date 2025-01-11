@@ -530,6 +530,22 @@ body {
   }
 }
 
+@media screen and (max-width: 650px) {
+  .footer-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-social-list {
+    width: 100%;
+    justify-content: center;
+    margin: 25px 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header-content {
     padding-top: 0;
